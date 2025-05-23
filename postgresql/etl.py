@@ -4,7 +4,6 @@ import psycopg2
 import pandas as pd
 from sql_queries import *
 from typing import Callable, List, Tuple
-from datetime import datetime
 import logging
 from dotenv import load_dotenv
 
