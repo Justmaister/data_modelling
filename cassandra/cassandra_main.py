@@ -2,7 +2,6 @@ import os
 import glob
 import csv
 import logging
-from typing import List, Dict, Any
 from cassandra.cluster import Cluster
 from cassandra_queries import (
     create_song_length_table,
